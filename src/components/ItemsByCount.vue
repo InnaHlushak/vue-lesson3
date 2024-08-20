@@ -1,11 +1,11 @@
 <template>
     <div class="container">
-        <h3>Show Items By Count {{userCount}}</h3>
+        <h3>Show Items By Count {{ userCount }}</h3>
         <div>
             <v-container>
                 <v-row>
                     <v-col v-for="item in itemsByCount" :key="item.id">
-                        <ItemCard v-bind:item="item" />
+                        <ItemCard :item="item" />
                     </v-col>
                 </v-row>
             </v-container>
@@ -21,11 +21,11 @@
         name: 'ItemsByCount',
         props: ['userCount'],
         components: {
-            ItemCard
+            ItemCard,
         },
         data() {
             return  {
-                itemsByCount: []
+                itemsByCount: [],
             }
         },
         methods: {
@@ -51,7 +51,3 @@
         }
     }
 </script>
-
-<style scoped>
-   
-</style>

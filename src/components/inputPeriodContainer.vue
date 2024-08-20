@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: 'inputPeriodContainer',
+        name: 'InputPeriodContainer',
         data() {
             return  {
                 error: '',

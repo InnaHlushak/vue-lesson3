@@ -7,10 +7,5 @@
 <script>
     export default {
         name: 'Favorites',
-        data() {
-            return  {
-                
-            }
-        }
     }
 </script>

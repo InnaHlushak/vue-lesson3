@@ -2,8 +2,7 @@
     <div class="container">
         <div class="greetings"> 
             <h1>Discover the cosmos!</h1>
-            <p>{{message}}</p>
-
+            <p>{{ message }}</p>
         </div>
     </div>
 </template>
